@@ -28,7 +28,7 @@ end
 
 def shows_by_alphabetical_order
   Show.sort 
-end 
+end
 
 
 end
