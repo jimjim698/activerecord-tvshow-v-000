@@ -1,7 +1,7 @@
 class AddSeasonsToShow:: < ActiveRecord::Migration
 
   def change
-    add_column :shows, :season, :string
+    add_column :shows, :season = nil, :string
   end
 
 
