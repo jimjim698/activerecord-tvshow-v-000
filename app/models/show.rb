@@ -26,7 +26,7 @@ Show.where("rating > ?", 5)
 
 end
 
-def shows_by_alphabetical_order
+def self.shows_by_alphabetical_order
   Show.sort 
 end
 
